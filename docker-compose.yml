@@ -1,7 +1,7 @@
 version: "3.3"
 services:
-  solr-8-1-1-ssl:
-    image: solr:8.1.1
+  solr-8-4-0-ssl:
+    image: solr:8.4.0
     restart: always
     ports:
       - 8983:8983
